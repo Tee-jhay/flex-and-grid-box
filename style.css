@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap:wght@400');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+}
+
+.nav {
+    height: 80px;
+    width: 100%;
+    background: linear-gradient(to bottom right, 
+    hsl(31, 77%, 52%),
+    hsl(31, 77%, 59%),
+    hsl(31, 72%, 66%),
+    rgb(204, 223, 224),
+    hsl(184, 39%, 55%),
+    hsl(178, 35%, 37%),
+    hsl(184, 100%, 22%),
+    hsl(179, 100%, 13%)
+    );
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    top: 0;
+    list-style: none;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+
+.nav ul li {
+    font-family: "Lexend Deca";
+    font-size: 20px;
+    font-weight: bolder;
+    display: inline-block;
+    line-height: 0 8px;
+   
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 8px 25px;
+}
+
+.nav ul li a:hover {
+    color: white;
+    background: linear-gradient(to top, grey,black);
+    border-radius: 15px;
+}
+
+#active {
+    color: hsl(0, 0%, 95%);
+    background: linear-gradient(to top, black, grey);
+    border-radius: 20px;
+}
+main{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.image{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+h1{
+    font-family:"Big Shoulders Display";
+    color:hsl(0, 0%, 95%);
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca";
+    padding-top: 25px;
+    padding-bottom: 80px;
+}
+.firstFlex{
+    background-color: hsl(31, 77%, 52%);
+    padding: 2em;
+}
+
+.secondFlex{
+    background-color: hsl(184, 100%, 22%);
+    padding: 2em;
+}
+.thirdFlex{
+    background-color: hsl(179, 100%, 13%);
+    padding: 2em;
+}
+button{
+    background-color: white;
+    border-radius: 20px;
+    width: 70%;
+    padding: 10px;
+    cursor: pointer;
+    border:2px solid white;  
+    font-weight: bold;
+}
+.firstFlexbtn{
+    color:hsl(31, 77%, 52%);
+}
+.secondFlexbtn{
+    color: hsl(184, 100%, 22%) ;
+}
+.thirdFlexbtn{
+    color: hsl(179, 100%, 13%);
+}
